@@ -28,19 +28,19 @@
 
 
 //디폴트 매개변수
-#include <iostream>
-using namespace std;
-
-void f(char a = ' ') { cout << a * 10 << endl; }
-//void f(char b = '%') { cout << b * 10 << endl; }
-//void f(char c = '@') { cout << c * 10 << endl; }
-
-
-
-int main(void) {
-
-	f();
-	f('%');
-	f('@'); 
-	
-}
+//#include <iostream>
+//using namespace std;
+//
+//void f(char a = ' ') { cout << a * 10 << endl; }
+////void f(char b = '%') { cout << b * 10 << endl; }
+////void f(char c = '@') { cout << c * 10 << endl; }
+//
+//
+//
+//int main(void) {
+//
+//	f();
+//	f('%');
+//	f('@'); 
+//	
+//}
