@@ -1,13 +1,21 @@
+
+
 #include <iostream>
 using namespace std;
 class Adder {
-protected:
+	protected:
 	int add(int a, int b) { return a + b; }
 };
 class Subtractor {
 protected:
 	int minus(int a, int b) { return a - b; }
-};class Multiplier {protected:	int multi(int a, int b) { return a * b;  }};// 다중 상속
+};
+class Multiplier {
+protected:
+	int multi(int a, int b) { return a * b;  }
+};
+
+// 다중 상속
 class Calculator : public Adder, public Subtractor, public Multiplier {
 public:
 	int calc(char op, int a, int b);
