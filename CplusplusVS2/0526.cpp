@@ -1,3 +1,5 @@
+// Lecture 12 - p.21
+
 #include <iostream>
 using namespace std;
 
